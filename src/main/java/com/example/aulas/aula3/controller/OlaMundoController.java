@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController//diz que essa classe responde a http e faz json, não uma página da web
-
 @RequestMapping("/aula3")// determino o prefixo pra acessar todas as rotas dessa classe
-
 public class OlaMundoController {
 
     @GetMapping("/ola-mundo")

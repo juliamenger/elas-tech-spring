@@ -4,7 +4,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/aula4")
-
 public class OiController {
 
     @GetMapping("/ola")
